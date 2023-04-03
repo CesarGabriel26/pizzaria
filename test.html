@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"rel="stylesheet">
+
+</head>
+
+<style>
+    * {
+        /* Css reset, remover estilo padrão do navegador */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 25px;
+        color: white;
+    }
+
+    .card {
+        background: green;
+        width: 270px;
+        text-align: center;
+        border-radius: 15px;
+        overflow: hidden;
+        padding-bottom: 15px;
+        box-shadow: 0px 7px 5px darkgreen;
+    }
+    .card p {
+        margin-top: 20px;
+    }
+    .cost span {
+        position: relative;
+        top: 5px;
+        left: 8px;
+    }
+
+    .cost .Preco {
+        margin: 0;
+    }
+
+    .cost {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: yellow;
+        margin-top: 20px;
+        color: black;
+        margin-left: 8%;
+        border-radius: 10px;
+        width: 85%;
+        font-size: 30px;
+        padding: 5px;
+    }
+
+</style>
+
+<body>
+    
+    <div class="card">
+        <img src="img/foto3.jpg" alt="">
+        <p>Mussarela</p>
+        <div class="cost">
+            <p class="Preco">R$20,50</p>
+            <span class="material-symbols-outlined">add_shopping_cart</span>
+        </div>
+        
+    </div>
+
+</body>
+</html>
