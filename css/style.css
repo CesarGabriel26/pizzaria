@@ -51,10 +51,6 @@ header img:hover {
     margin-top: 5px;
 }
 
-header img:hover+.EasterEgg {
-    display: block;
-}
-
 header nav {
     height: auto;
 }
