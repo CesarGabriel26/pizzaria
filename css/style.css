@@ -249,6 +249,7 @@ header nav ul li:hover {
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
+    max-width: 100%;
 }
 
 .cost {
