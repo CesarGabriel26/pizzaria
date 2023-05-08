@@ -45,12 +45,6 @@ header img {
     transition: .5s;
 }
 
-header img:hover {
-    margin-left: 45px;
-    height: 200px;
-    margin-top: 5px;
-}
-
 header nav {
     height: auto;
 }
